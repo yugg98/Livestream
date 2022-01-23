@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0%;
+}
+.circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(255, 109, 109));
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content :nth-child(1){
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+.content :nth-child(2){
+    color: red;
+}
+.circle button{
+    border:2px solid rgb(16, 159, 241);
+    border: none;
+}
+.circle button img{
+    width: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.btn{
+    padding: 10px;
+    background: rgb(214, 207, 207);
+    border:none;
+    border-radius: '10px';
+}
